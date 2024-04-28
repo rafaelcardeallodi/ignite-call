@@ -70,6 +70,7 @@ export default function Register() {
           Precisamos de algumas informações para criar seu perfil! Ah, você pode
           editar essas informações depois.
         </Text>
+
         <MultiStep currentStep={1} size={4} />
       </Header>
       <Form as="form" onSubmit={handleSubmit(handleRegister)}>
